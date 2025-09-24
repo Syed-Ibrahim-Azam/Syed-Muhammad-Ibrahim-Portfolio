@@ -1486,26 +1486,29 @@ footer {
 }
 
 .footer-avatar-img {
-    width: 100%;
+    margin-left: 15px;
+    width: 200%;
     z-index: 2
 }
 
 .footer-avatar-face {
+    
     position: absolute;
     width: 100%;
-    height: 97%;
-    z-index: 1;
+    height: 100%;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 1px;
     padding-left: 5px
 }
 
 .footer-avatar-eye {
-    width: 50px;
-    height: 50px;
-    background-color: #dfd2d2;
+    width: 24px;
+    height: 17px;
+    margin-right: 15px;
+    background-color: #ffffff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1513,21 +1516,24 @@ footer {
 }
 
 .footer-pupil {
-    width: 20px;
-    height: 20px;
-    background-color: #000;
+    width: 1px;
+    height: 1px;
+    background-color: #ffffff;
     border-radius: 50%;
-    border: 5px solid #413333;
-    filter: blur(.6px)
+    border: 5px solid #000000;
 }
 
 .footer-right-eye {
-    box-shadow: 15px 15px 5px rgba(0, 0, 0, .233) inset, 10px 10px 5px rgba(41, 33, 33, .644) inset;
+    margin-bottom: 200px;
+    margin-right: 35px;
+    box-shadow: 15px 15px 5px rgb(255, 255, 255) inset, 10px 10px 5px rgb(255, 255, 255) inset;
     position: relative
 }
 
 .footer-left-eye {
-    box-shadow: -10px -15px 5px rgba(0, 0, 0, .349) inset;
+    margin-bottom: 195px;
+    margin-right: 35px;
+    box-shadow: -10px -15px 5px rgb(255, 255, 255) inset;
     position: relative
 }
 
@@ -1537,7 +1543,7 @@ footer {
     width: 2px;
     height: 5px;
     border-radius: 50%;
-    background-color: rgba(214, 214, 214, .726);
+    background-color: rgb(255, 255, 255);
     z-index: 2;
     filter: blur(.2px);
     left: 15px;
